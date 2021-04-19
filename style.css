@@ -134,3 +134,31 @@ body{
     padding: 10px;
     margin-left: 60px;
 }
+
+.icones{
+    margin-left: 500px;
+    position: absolute;
+    color: rgb(252, 249, 250);    
+    margin-top: 550px; 
+    margin-left: 190px;   
+}
+
+.relogio{
+    border: 1px solid rgb(117, 17, 17);
+    background-color: rgb(124, 11, 11);     
+}
+.relogio2{
+    margin-left: 295px; 
+    border: 1px solid rgb(117, 17, 17);
+    background-color: rgb(124, 11, 11);     
+}
+.relogio3{
+    margin-left: 295px; 
+    border: 1px solid rgb(117, 17, 17);
+    background-color: rgb(124, 11, 11);      
+}
+.relogio4{
+    margin-left: 295px; 
+    border: 1px solid rgb(117, 17, 17);
+    background-color: rgb(124, 11, 11);      
+}
