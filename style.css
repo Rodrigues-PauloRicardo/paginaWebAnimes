@@ -10,24 +10,23 @@
 /*----------------------------*/
 
 body{
-    background-color: rgb(126, 132, 134);
+    background-color: rgb(88, 35, 11);
 }
 
 #logomarca{                                        /* logomarca */
     position: absolute;
     margin-left: 15px;
+     height: 200px;
        }
-    img{
-        height: 200px;
-    }
+   
 
 
 #etapa1{                                           /* botões conecte-se e explorar */
     position: absolute;
     display: flex;
     flex-wrap: wrap; 
-    margin-top: 100px;
-    margin-left: 970px;    
+    margin-top: 140px;
+    margin-left: 940px;       
        }
 
 .bt1 {                                              /* botõe conecte-se */
@@ -35,8 +34,9 @@ body{
     justify-content: center;
     height: 40px ;
     width: 200px;
-    background-color: rgb(248, 82, 4);
+    background-color: rgb(88, 35, 11);
     border-radius: 5px;
+    color: white;
        }
 
        .bt2 {                                        /* botõe explorar */
@@ -44,121 +44,284 @@ body{
         justify-content: center;
         height: 40px ;
         width: 200px;
-        background-color: rgb(248, 82, 4);
+        background-color: rgb(88, 35, 11);
         border-radius: 5px;
         margin-left: 20px;
+        color: white;
            }
 
 
 #container{
     position: absolute;
+    width: 100%;    
+     }
+     
+   #imagemAnime{  
+    position: absolute;
+    margin-top: 15%;  
     width: 100%;
-    }
+    height: 70%;   
+   }
 
-   #imagemAnime{                                    /* imagem de fundo animes */
-    margin-top: 190px;
-    height: 500px;
-    width: 100%;
-}
+   
 
-#texto{                                             /* texto título */
+.texto{                                             /* texto título */
     text-align: center;
     color:rgb(239, 238, 245);
     display: flex;
     justify-content: center;   
     position: absolute;
-    font-size: 32px;
-    left: 550px;
-    top: 80px;
+    
 }
 
-#botaoPremium{                                      /* botao premium */
+#botaoPremium{   
+    color: white;                                   /* botao premium */
     font-size: 20px;
+    padding: 10px 80px;
     position: absolute;
-    background-color: rgb(248, 82, 4);
+    background-color: rgb(88, 35, 11);
     border-radius: 5px;
     align-items: center;
-    margin-top: 440px;
-    margin-left: 580px;
-    height: 40px;
-    width: 250px;
+    margin-top: 700px;
+    margin-left: 520px;    
 }
+
+
 
 .campo2{
     font-style: italic;
     font-weight: bold;
     position: absolute;
-    margin-top: 600px;
+    margin-top: 500px;
     display: flex;
-    justify-content: space-between;
-    color: rgb(92, 7, 7);
+    justify-content: space-around;
+    color: rgb(8, 8, 8);
+    align-items: space-around;
+
+
 }
 
-.txt4{
-    height: 60px;
-    width: 290px;
+.txt4{     
     text-align: center;
     border: 2px solid rgb(87, 26, 18);
-    background-color: rgb(252, 249, 249);
-    border-radius: 50px;
+    background-color: rgb(248, 82, 4);
     padding: 10px;
-    margin-left: 50px;
+    
 }
+
 .txt3{
-    height: 60px;
-    width: 290px;
     text-align: center;
     border: 2px solid rgb(87, 26, 18);
-    background-color:rgb(252, 249, 249);
-    border-radius: 50px;
+    background-color: rgb(248, 82, 4);
     padding: 10px;
-    margin-left: 50px;
 }
 .txt2{
-    height: 60px;
-    width: 290px;
     text-align: center;
     border: 2px solid rgb(87, 26, 18);
-    background-color:rgb(252, 249, 249);
-    border-radius: 50px;
+    background-color: rgb(248, 82, 4);
     padding: 10px;
-    margin-left: 50px;
 }
 .txt1{
-    height: 60px;
-    width: 290px;
     text-align: center;
     border: 2px solid rgb(87, 26, 18);
-    background-color:rgb(252, 249, 249);
-    border-radius: 50px;
+    background-color:rgb(248, 82, 4);
     padding: 10px;
-    margin-left: 60px;
 }
 
 .icones{
-    margin-left: 500px;
     position: absolute;
     color: rgb(252, 249, 250);    
-    margin-top: 550px; 
-    margin-left: 190px;   
+    margin-top: 850px;    
 }
 
 .relogio{
-    border: 1px solid rgb(117, 17, 17);
-    background-color: rgb(124, 11, 11);     
+    margin-left: 130px; 
+    border: 1px solid rgb(117, 17, 17); background-color: rgb(124, 11, 11);
+        
 }
 .relogio2{
-    margin-left: 295px; 
-    border: 1px solid rgb(117, 17, 17);
-    background-color: rgb(124, 11, 11);     
+    margin-left: 320px; 
+    border: 1px solid rgb(117, 17, 17); background-color: rgb(124, 11, 11);     
 }
 .relogio3{
-    margin-left: 295px; 
-    border: 1px solid rgb(117, 17, 17);
-    background-color: rgb(124, 11, 11);      
+    margin-left: 310px; 
+    border: 1px solid rgb(117, 17, 17); background-color: rgb(124, 11, 11);      
 }
 .relogio4{
-    margin-left: 295px; 
-    border: 1px solid rgb(117, 17, 17);
-    background-color: rgb(124, 11, 11);      
+    margin-left: 320px; 
+    border: 1px solid rgb(117, 17, 17); background-color: rgb(124, 11, 11);      
+}
+
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .campo2 {
+        width: 90%;
+    }
+}
+
+@media (max-width: 650px) {
+    .campo2 {
+        width: 90%;    
+    }
+} 
+
+@media (max-width: 1500px) {
+    #imagemAnime {
+        width: 100%;
+        height: auto;        
+}
+} 
+
+@media (max-width: 1500px) {
+    #logomarca {
+             width: 20%;
+             height: auto;             
+}
+}
+
+
+
+.textoNovo{
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 1000px;
+    color: white;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1400px){            /*hguyguyguyguyguy*/
+    #etapa1{ 
+       margin-top: 10%;
+       margin-left: 67%;
+       display: flex;
+      justify-content: flex-end;         
+}
+@media screen and (max-width: 1400px){
+    .texto{ 
+    margin-top: 6%;
+    margin-left: 30%;
+    font-size: 35px;       
+    }
+}
+@media (max-width: 1400px) {
+    #botaoPremium {
+             width: 40%;
+             height: auto;
+             margin-left: 30%;
+             margin-top: 50%;
+                           
+}
+}
+@media (max-width: 1400px){
+    .campo2 {
+        display: flex;
+        justify-content: space-between;
+             width: 95%;
+             height: auto;
+             margin-left: 2.5%;
+             margin-top: 65%; 
+}
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px){             /*hguyguyguyguyguy*/
+     #etapa1{ 
+        margin-top: 2%;
+        margin-left: 70%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;          
+}
+}
+@media screen and (max-width: 768px){
+    .texto{ 
+    margin-top: 4%;
+    margin-left: 30%;
+    font-size: 25px;       
+    }
+}
+@media (max-width: 768px){
+    #botaoPremium {
+             width: 50%;
+             height: auto;
+             margin-left: 25%;
+             margin-top: 50%;
+                           
+}
+}
+@media (max-width: 768px){
+    .campo2 {
+        display: flex;
+        justify-content: flex-start;
+             width: 95%;
+             height: auto;
+             margin-left: 2.5%;
+             margin-top: 65%; 
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px){        /*hguyguyguyguyguy*/
+    #etapa1{ 
+       display: flex;
+       flex-direction: column;
+       align-items: flex-end;
+       height: 70%;
+       width: auto;       
+       margin-top: 75%;
+       margin-left: 18%;        
+    }
+}
+@media screen and (max-width: 360px){
+    .texto{ 
+    margin-top: 3%;
+    margin-left: 40%;
+    font-size: 14px;       
+    }
+}
+@media (max-width: 360px){
+    #botaoPremium {
+        font-size: 14px;
+        padding: 1%;
+        width: 50%;
+        height: auto;
+        margin-left: 25%;
+        margin-top: 50%;
+                           
+}
+}
+@media (max-width: 360px){
+    .campo2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: -1px;
+             width: 100%;
+             height: auto;
+             margin-top: 65%; 
+}
+}
 }
